@@ -1,0 +1,24 @@
+Ver:1.0
+Day01 -> Introduction:
+
+Starting my #90DaysOfDevOps challenge with the #TrainWithShubham Community
+
+Fork this Repo.
+Start with a DevOps Roadmap[https://youtu.be/iOE9NTAG35g]
+Write a LinkedIn post or a small article about your understanding of DevOps
+What is DevOps
+What is Automation, Scaling, Infrastructure
+Why DevOps is Important, etc
+
+My understanding:
+
+DevOps is a culture using some tools help you auotmate and efficiently release the product to the market as fast as possible by automating using cloud infrasturctue, CI/CD pipeline, IaaC, Congfiguration management, Conternization and Orchestration.
+
+There will be a lot of terms coming along the way but to mention few not so heavy. 
+
+Automation: Automation is a crucial part in DevOps as once you setup your CI/CD pipeline everything gets synced and the whole pipeline then works without human intervention. Automation is what makes the time to market faster.
+Scaling: Scaling is a concept heavily used in cloud environment. Where you can scale your resources e.g. Virtual servers, containers, etc. without you manually increasing the number of the resouces needed at peak time of your businesss.
+Infrastructure: As just mentioned above term cloud. Cloud is based on underlying physical infrastructure in places called data centers all over the world connected through fiber physical cables. 
+
+Finally, why devops is important i believe it should be clear enough to make a sense out of it. It helps you bridge the gap between development and operations which both are needed in the lifecycle of releasing the product to the market. It saves time, cost, efficient collaboration, and fix problems faster.
+There is a lot more to it if you go deeper in all the tools invovled but keeping it simple this simple explanation should be enough for now.
