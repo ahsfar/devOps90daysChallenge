@@ -1,0 +1,26 @@
+DevOps day2 Challenge
+
+Day 2 Task: Basics linux command
+
+Task: What is the linux command to
+
+Check your present working directory.
+List all the files or directories including hidden files.
+Create a nested directory A/B/C/D/E
+
+
+Answers to the Above:
+
+#pwd 
+
+  above command to check the present working directory
+
+
+#ls -a
+
+  above command list all the files including hidden files
+
+
+#mkdir -p A/B/C/D/E
+
+  above comand create nested directories and p stands for parents 
