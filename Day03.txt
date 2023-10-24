@@ -1,0 +1,49 @@
+Day03 of 90 Days DevOps challenge:
+
+Day 3 Task: Basic Linux Commands
+
+Task: What is the linux command to
+
+To view what's written in a file.
+To change the access permissions of files.
+To check which commands you have run till now.
+To remove a directory/ Folder.
+To create a fruits.txt file and to view the content.
+Add content in devops.txt (One in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava.
+To Show only top three fruits from the file.
+To Show only bottom three fruits from the file.
+To create another file Colors.txt and to view the content.
+Add content in Colors.txt (One in each line) - Red, Pink, White, Black, Blue, Orange, Purple, Grey.
+To find the difference between fruits.txt and Colors.txt file.
+
+
+Answer:
+#cat 
+ to view what's written in a file.
+#chmod 777 filename
+ change the access permissions of the file
+#history
+ check which commands you've run till now
+#rmdir name
+ remove directory 
+#touch fruits.txt
+#cat fruits.txt
+ to create and view content
+#echo apple >> devops.txt
+#echo Mango >> devops.txt
+..
+#echo Guava >> devops.txt
+ add content one in each line
+#head -n 3 devops.txt
+ to show only top 3 fruits from file
+#tail -n 3 devops.txt
+ to show only bottom 3 fruits from file
+#touch Colors.txt
+#cat Colors.txt
+ create and view Colors.txt
+#echo Red >> Colors.txt
+#echo Pink >> Colors.txt
+..
+#echo Grey >> Colors.txt
+ add content one in each line
+#diff fruits.txt Colors.txt
