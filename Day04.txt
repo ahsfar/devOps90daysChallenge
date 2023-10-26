@@ -17,7 +17,7 @@ What is #!/bin/bash? can we write #!/bin/sh as well?
 Write a Shell Script which prints I will complete #90DaysOofDevOps challenge
 Write a Shell Script to take user input, input from arguments and print the variables.
 Write an Example of If else in Shell Scripting by comparing 2 numbers
-Was it difficult?
+Was it difficult? No.
 
 Post about it on LinkedIn and Let me know :)
 Article Reference: Click here to read basic Linux Shell Scripting
@@ -27,3 +27,28 @@ YouTube Vedio: EASIEST Shell Scripting Tutorial for DevOps Engineers
 ---
 
 My understanding:
+Shell scripting for devOps: DevOps tools use scriting in their shell environment. Most of the devOps tools have a command line environment where you can write the scripts and make it a part of automation. Scripting makes it efficient for devops engineer to manage script files for configuration or deployment. 
+
+#!/bin/bash is hashbang or shebang it's mostly used before you write your script normally the first line to tell the system that it's a shell based file. Both can be used and it's better to use /bin/sh so it can use any shell not just bash shell it's good for portability.
+
+#!/bin/sh
+echo "i will complete #90DaysOfDevOps challenge"
+
+#!/bin/sh
+echo "Please enter a value:"
+read value
+if [$# -ge 1], then
+ argueA ="$1"
+else
+  argueA="A not entered"
+fi
+if [$# -ge 2], then
+ argueB ="$2"
+else
+  argueB="B not entered"
+fi
+echo "That is the value you entered: $value "
+echo "ArguementA: $argueA"
+echo "ArgumentB: $argueB"
+
+
