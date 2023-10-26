@@ -21,9 +21,10 @@ Was it difficult? No.
 
 Post about it on LinkedIn and Let me know :)
 Article Reference: Click here to read basic Linux Shell Scripting
+https://devopscube.com/linux-shell-scripting-for-devops/
 
 YouTube Vedio: EASIEST Shell Scripting Tutorial for DevOps Engineers
-
+https://www.youtube.com/watch?v=_-D6gkRj7xc&list=PLlfy9GnSVerQr-Se9JRE_tZJk3OUoHCkh&index=4
 ---
 
 My understanding:
@@ -52,3 +53,11 @@ echo "ArguementA: $argueA"
 echo "ArgumentB: $argueB"
 
 
+#!/bin/sh
+echo "Please enter a value:"
+read value
+if value = 2
+ echo "It's 2"
+else
+  echo "some other number"
+fi
